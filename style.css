@@ -4,13 +4,32 @@ body{
  
  
  p {
-    position:relative;
-    top: 200px;
-    text-align: right;
     color:black;
-    font-size: 20px;
+    padding:15px;
+    text-align: center;
  }
  
+ 
+ #funfactsimg{
+    height:250px;
+    width:auto;
+    position:relative;
+    top:50px;
+ }
+
+ #funfactsimg1{
+    height:250px;
+    width:auto;
+    position:relative;
+    top:50px;
+ }
+
+h3{
+    color:black;
+    font-style: bold;
+    font-size:30px;
+    margin:0px;
+}
  
  #banner{
     width:100%;
@@ -18,15 +37,7 @@ body{
  }
  
  
- #portrait {
-    float:left;
-    position:relative;
-    padding-top:200px;
-    padding-right:50px;
-    padding-left:0%;
-    width: 500px;
-   
- }
+ 
  
  
  .container {
@@ -41,22 +52,21 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size:50px;
+    font-size:90px;
     -webkit-text-stroke-color: aliceblue;
     -webkit-text-stroke-width:1px;
  }
  
  
  h2{
-    position: absolute;
-    left:50%;
+    position: relative;
     transform: translate(-50%, -50%);
     background-color: rgb(173, 173, 145);
     margin:0;
     padding-left: 100%;
     padding-right: 100%;
     color:black;
- 
+    font-size:30px;
  
  }
  
